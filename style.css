@@ -37,8 +37,7 @@
 .home::before {
   content: "";
   position: absolute;
-  background: url("./image/background.jpg") no-repeat center
-    center/cover;
+  background: url("./image/background.jpg") no-repeat center center/cover;
   height: 850px;
   width: 100%;
   z-index: -1;
@@ -103,4 +102,13 @@
   border-radius: 50%;
   height: 260px;
   width: 260px;
+}
+.skills {
+  border: black dashed 2px;
+  padding: 40px;
+  text-align: center;
+  list-style: none;
+  font-size: 1.5rem;
+  margin: 30px;
+  width: 100%;
 }
